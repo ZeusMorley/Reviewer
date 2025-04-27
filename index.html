@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="topic-selection" class="menu-container">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            <div class="header-title">
+                <h1>Reviewer</h1>
+            </div>
+            <h2>Select a Topic</h2>
+            <div id="topics-container" class="menu-options">
+                <!-- Topics here -->
+            </div>
+        </div>
+
+        <div id="main-menu" class="menu-container hidden">
+            <button id="theme-toggle-menu" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            <div class="header">
+                <button id="back-to-topics" class="back-btn">Back to Topics</button>
+                <div class="header-title">
+                    <h1>Reviewer</h1>
+                    <div id="current-topic-menu" class="current-topic"></div>
+                </div>
+            </div>
+            <div class="menu-options">
+                <button id="study-btn" class="menu-btn">Study</button>
+                <button id="flashcards-btn" class="menu-btn">Flashcards</button>
+                <button id="test-btn" class="menu-btn">Test</button>
+            </div>
+        </div>
+
+        <div id="study-container" class="hidden">
+            <button id="theme-toggle-study" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            <div class="header">
+                <button id="back-to-menu" class="back-btn">Back to Menu</button>
+                <div class="header-title">
+                    <h2>Study Notes</h2>
+                    <div id="current-topic-study" class="current-topic"></div>
+                </div>
+            </div>
+            <div id="markdown-content"></div>
+        </div>
+
+        <div id="flashcards-container" class="hidden">
+            <button id="theme-toggle-flashcards" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            <div class="header">
+                <button id="back-to-menu-flashcards" class="back-btn">Back to Menu</button>
+                <div class="header-title">
+                    <h2>Flashcards</h2>
+                    <div id="current-topic-flashcards" class="current-topic"></div>
+                </div>
+            </div>
+            <div id="flashcard-content">
+                <div id="flashcard" class="clickable">
+                    <div id="flashcard-question"></div>
+                    <div id="flashcard-answer" class="hidden"></div>
+                    <div class="flashcard-hint">Click to reveal answer</div>
+                </div>
+                <div class="flashcard-controls">
+                    <button id="prev-card" class="nav-btn"><</button>
+                    <button id="next-card" class="nav-btn">></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="quiz-container" class="hidden">
+            <button id="theme-toggle-quiz" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+            <div class="header">
+                <button id="back-to-menu-quiz" class="back-btn">Back to Menu</button>
+                <div class="header-title">
+                    <h2>Test</h2>
+                    <div id="current-topic-quiz" class="current-topic"></div>
+                </div>
+            </div>
+            <div id="question-container">
+                <h3 id="question"></h3>
+                <div id="options-container"></div>
+            </div>
+            <div id="explanation-container" class="hidden">
+                <p id="explanation"></p>
+                <button id="next-button">Next Question</button>
+            </div>
+            <div id="results-container" class="hidden">
+                <p>Your score: <span id="score"></span></p>
+                <button id="restart-button">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
