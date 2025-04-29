@@ -138,9 +138,6 @@ function showFlashcard() {
     flashcardAnswer.textContent = currentFlashcard.explanation;
     flashcardAnswer.classList.add('hidden');
     showAnswerBtn.textContent = 'Show Answer';
-    
-    // Update flashcard counter
-    document.getElementById('flashcard-counter').textContent = `(${currentFlashcardIndex + 1}/${questions.length})`;
 }
 
 // Show quiz mode
@@ -182,8 +179,8 @@ function showQuestion() {
         option => option.originalIndex === currentQuestion.correctAnswer
     );
 
-    // Update the correct answer index in the current question
-    currentQuestion.correctAnswer = correctAnswerIndex;
+    // Store the correct answer index in the current question
+    currentQuestion.currentCorrectAnswer = correctAnswerIndex;
 
     // Create buttons for the shuffled options
     optionsWithIndices.forEach(option => {
@@ -203,12 +200,12 @@ function selectAnswer(selectedIndex) {
         option.disabled = true;
     });
 
-    if (selectedIndex === currentQuestion.correctAnswer) {
+    if (selectedIndex === currentQuestion.currentCorrectAnswer) {
         options[selectedIndex].classList.add('correct');
         score++;
     } else {
         options[selectedIndex].classList.add('incorrect');
-        options[currentQuestion.correctAnswer].classList.add('correct');
+        options[currentQuestion.currentCorrectAnswer].classList.add('correct');
     }
 
     explanationElement.textContent = currentQuestion.explanation;
