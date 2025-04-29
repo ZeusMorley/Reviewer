@@ -4,6 +4,7 @@ let questions = [];
 let currentFlashcardIndex = 0;
 let currentTopic = '';
 let quizQuestions = []; // New array to store quiz questions with shuffled options
+let userAnswers = [];
 
 // Available topics - add new topics here when you add new files
 const availableTopics = ['CSC109_ch2', 'CSC109_ch3'];
@@ -152,6 +153,7 @@ function showQuiz() {
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
+    userAnswers = []; // Reset user answers
     showQuestion();
 }
 
@@ -190,6 +192,9 @@ function showQuestion() {
         button.addEventListener('click', () => selectAnswer(optionsWithIndices.indexOf(option)));
         optionsContainer.appendChild(button);
     });
+
+    // Update next button text based on whether this is the last question
+    nextButton.textContent = currentQuestionIndex === quizQuestions.length - 1 ? 'Show Results' : 'Next Question';
 }
 
 function selectAnswer(selectedIndex) {
@@ -199,6 +204,14 @@ function selectAnswer(selectedIndex) {
     options.forEach(option => {
         option.disabled = true;
     });
+
+    // Store user's answer
+    userAnswers[currentQuestionIndex] = {
+        question: currentQuestion.question,
+        userAnswer: options[selectedIndex].textContent,
+        correctAnswer: options[currentQuestion.currentCorrectAnswer].textContent,
+        isCorrect: selectedIndex === currentQuestion.currentCorrectAnswer
+    };
 
     if (selectedIndex === currentQuestion.currentCorrectAnswer) {
         options[selectedIndex].classList.add('correct');
@@ -217,7 +230,25 @@ function showResults() {
     optionsContainer.innerHTML = '';
     explanationContainer.classList.add('hidden');
     resultsContainer.classList.remove('hidden');
-    scoreElement.textContent = `${score} out of ${questions.length}`;
+    
+    // Create results summary
+    const resultsHTML = `
+        <h3>Quiz Results</h3>
+        <p class="score-summary">Your score: <span id="score">${score} out of ${questions.length}</span></p>
+        <div class="answers-summary">
+            ${userAnswers.map((answer, index) => `
+                <div class="answer-item ${answer.isCorrect ? 'correct' : 'incorrect'}">
+                    <h4>Question ${index + 1}</h4>
+                    <p class="question-text">${answer.question}</p>
+                    <p class="user-answer">Your answer: ${answer.userAnswer}</p>
+                    ${!answer.isCorrect ? `<p class="correct-answer">Correct answer: ${answer.correctAnswer}</p>` : ''}
+                </div>
+            `).join('')}
+        </div>
+    `;
+    
+    resultsContainer.innerHTML = resultsHTML;
+    resultsContainer.appendChild(restartButton);
 }
 
 // Fisher-Yates shuffle algorithm

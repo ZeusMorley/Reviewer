@@ -1,0 +1,35 @@
+[
+    {
+        "question": "Which of the following is NOT one of the three key aspects of privacy?",
+        "options": [
+            "Freedom from intrusion",
+            "Control of information about oneself",
+            "Freedom from surveillance",
+            "Complete anonymity in public spaces"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The three key aspects of privacy are: freedom from intrusion, control of information about oneself, and freedom from surveillance. Complete anonymity in public spaces is not a key aspect of privacy, as it's generally not possible or expected in public settings."
+    },
+    {
+        "question": "What is the main reason we give up some privacy when dealing with strangers?",
+        "options": [
+            "To avoid legal consequences",
+            "To gain social acceptance",
+            "To reduce the risk for others in transactions",
+            "To comply with government regulations"
+        ],
+        "correctAnswer": 2,
+        "explanation": "We give up some privacy when dealing with strangers because if people know nothing about us, they might be taking a risk if they let us rent a place, hire us, lend us money, etc. This is a practical necessity for social and economic interactions."
+    },
+    {
+        "question": "What is the primary impact of new technology on privacy?",
+        "options": [
+            "It has no significant impact on privacy",
+            "It makes it easier to maintain complete privacy",
+            "It makes collection and analysis of personal information easier and faster",
+            "It only affects government surveillance"
+        ],
+        "correctAnswer": 2,
+        "explanation": "New technology makes the collection, searching, analysis, storage, access, and distribution of huge amounts of information much easier, cheaper, and faster than before, which has profound implications for privacy."
+    }
+]

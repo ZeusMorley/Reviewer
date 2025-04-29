@@ -425,13 +425,68 @@ button:active {
 }
 
 #results-container {
-    text-align: center;
+    text-align: left;
+    padding: 20px;
 }
 
-#score {
+.score-summary {
     font-size: 24px;
     font-weight: bold;
     color: var(--score-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.answers-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.answer-item {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: var(--option-bg);
+    border: 2px solid var(--option-border);
+}
+
+.answer-item.correct {
+    border-color: var(--correct-border);
+    background-color: var(--correct-bg);
+}
+
+.answer-item.incorrect {
+    border-color: var(--incorrect-border);
+    background-color: var(--incorrect-bg);
+}
+
+.answer-item h4 {
+    margin: 0 0 10px 0;
+    color: var(--header-color);
+}
+
+.question-text {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.user-answer, .correct-answer {
+    margin: 5px 0;
+}
+
+.correct-answer {
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+#restart-button {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -451,10 +506,6 @@ h2{
     padding: 10px 20px;
     bottom: 10px;
     right: 10px;
-}
-
-#restart-button{
-    margin-top: 20px;
 }
 
 #explanation{
