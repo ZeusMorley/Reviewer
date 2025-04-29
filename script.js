@@ -6,7 +6,7 @@ let currentTopic = '';
 let quizQuestions = []; // New array to store quiz questions with shuffled options
 
 // Available topics - add new topics here when you add new files
-const availableTopics = ['CSC109', 'CSC153'];
+const availableTopics = ['CSC109_ch2', 'CSC109_ch3'];
 
 // DOM Elements
 const topicSelection = document.getElementById('topic-selection');
@@ -126,6 +126,9 @@ function showStudy() {
 function showFlashcards() {
     mainMenu.classList.add('hidden');
     flashcardsContainer.classList.remove('hidden');
+    // Shuffle questions for flashcards
+    questions = shuffleArray([...questions]);
+    currentFlashcardIndex = 0;
     showFlashcard();
 }
 
@@ -135,24 +138,23 @@ function showFlashcard() {
     flashcardAnswer.textContent = currentFlashcard.explanation;
     flashcardAnswer.classList.add('hidden');
     showAnswerBtn.textContent = 'Show Answer';
+    
+    // Update flashcard counter
+    document.getElementById('flashcard-counter').textContent = `(${currentFlashcardIndex + 1}/${questions.length})`;
 }
 
 // Show quiz mode
 function showQuiz() {
     mainMenu.classList.add('hidden');
     quizContainer.classList.remove('hidden');
+    // Shuffle questions for quiz
+    quizQuestions = shuffleArray([...questions]);
     startQuiz();
 }
 
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
-    // Create a copy of questions for the quiz
-    quizQuestions = questions.map(q => ({
-        ...q,
-        options: [...q.options],
-        correctAnswer: q.correctAnswer
-    }));
     showQuestion();
 }
 
@@ -162,6 +164,9 @@ function showQuestion() {
     optionsContainer.innerHTML = '';
     explanationContainer.classList.add('hidden');
     resultsContainer.classList.add('hidden');
+
+    // Update quiz counter
+    document.getElementById('quiz-counter').textContent = `(${currentQuestionIndex + 1}/${quizQuestions.length})`;
 
     // Create array of options with their indices
     let optionsWithIndices = currentQuestion.options.map((option, index) => ({

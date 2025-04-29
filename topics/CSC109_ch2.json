@@ -1,0 +1,552 @@
+[
+    {
+        "question": "Which of the following is NOT one of the three key aspects of privacy?",
+        "options": [
+            "Freedom from intrusion",
+            "Control of information about oneself",
+            "Freedom from surveillance",
+            "Complete anonymity in public spaces"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The three key aspects of privacy are: freedom from intrusion, control of information about oneself, and freedom from surveillance. Complete anonymity in public spaces is not a key aspect of privacy, as it's generally not possible or expected in public settings."
+    },
+    {
+        "question": "What is the main reason we give up some privacy when dealing with strangers?",
+        "options": [
+            "To avoid legal consequences",
+            "To gain social acceptance",
+            "To reduce the risk for others in transactions",
+            "To comply with government regulations"
+        ],
+        "correctAnswer": 2,
+        "explanation": "We give up some privacy when dealing with strangers because if people know nothing about us, they might be taking a risk if they let us rent a place, hire us, lend us money, etc. This is a practical necessity for social and economic interactions."
+    },
+    {
+        "question": "What is the primary impact of new technology on privacy?",
+        "options": [
+            "It has no significant impact on privacy",
+            "It makes it easier to maintain complete privacy",
+            "It makes collection and analysis of personal information easier and faster",
+            "It only affects government surveillance"
+        ],
+        "correctAnswer": 2,
+        "explanation": "New technology makes the collection, searching, analysis, storage, access, and distribution of huge amounts of information much easier, cheaper, and faster than before, which has profound implications for privacy."
+    },
+    {
+        "question": "What is 'invisible information gathering'?",
+        "options": [
+            "Collecting information with the person's knowledge",
+            "Collecting information without the person's knowledge",
+            "Collecting information only in public spaces",
+            "Collecting information only from government databases"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Invisible information gathering is the collection of personal information without the person's knowledge. This is an important ethical issue because if someone is not aware of the collection and use, they have no opportunity to consent or withhold consent."
+    },
+    {
+        "question": "What are cookies in the context of web browsing?",
+        "options": [
+            "Small text files that store user preferences",
+            "Programs that track user keystrokes",
+            "Security measures to prevent hacking",
+            "Tools to speed up internet connection"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cookies are files a website stores on a visitor's computer. Within the cookie, the site stores and uses information about the visitor's activity, such as products looked at and shopping cart contents."
+    },
+    {
+        "question": "What is 'secondary use' of personal information?",
+        "options": [
+            "Using information for its original purpose",
+            "Using information for a purpose other than the one for which it was supplied",
+            "Using information only in government databases",
+            "Using information only for marketing purposes"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Secondary use is the use of personal information for a purpose other than the one for which the person supplied it. Examples include sale of consumer information to marketers or use of information in various databases for different purposes."
+    },
+    {
+        "question": "What is the difference between opt-out and opt-in policies?",
+        "options": [
+            "There is no difference between them",
+            "Opt-out requires explicit permission, while opt-in is the default",
+            "Opt-in requires explicit permission, while opt-out is the default",
+            "Opt-out is for government data, while opt-in is for private data"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Under an opt-in policy, the collector of the information may not use it for secondary uses unless the person explicitly permits it. Under an opt-out policy, the presumption is that the organization may use the information unless the person explicitly requests otherwise."
+    },
+    {
+        "question": "What is the main purpose of the Fourth Amendment?",
+        "options": [
+            "To protect freedom of speech",
+            "To set limits on government's rights to search and seize",
+            "To regulate private business practices",
+            "To establish internet privacy laws"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Fourth Amendment sets limits on the government's rights to search our homes and businesses and to seize documents and other personal effects. It requires that the government have probable cause for the search and seizure."
+    },
+    {
+        "question": "What was the significance of the Katz v. United States case?",
+        "options": [
+            "It allowed unlimited government surveillance",
+            "It ruled that the Fourth Amendment only applies to physical intrusion",
+            "It ruled that the Fourth Amendment applies to conversations and public places",
+            "It established the right to complete privacy in public"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In Katz v. United States (1967), the Supreme Court ruled that the Fourth Amendment does apply to conversations and that it applies in public places in some situations. The court said that the Fourth Amendment 'protects people, not places.'"
+    },
+    {
+        "question": "What was the ruling in Kyllo v. United States?",
+        "options": [
+            "Police could use thermal-imaging without a warrant",
+            "Police could not use thermal-imaging without a warrant",
+            "Thermal-imaging was banned completely",
+            "Thermal-imaging was allowed only in public places"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Kyllo v. United States (2001), the Supreme Court ruled that police could not use thermal-imaging devices to search a home from the outside without a search warrant. The Court stated that where 'government uses a device that is not in general public use, to explore details of the home that would previously have been unknowable without physical intrusion, the surveillance is a 'search.'"
+    },
+    {
+        "question": "What is a key challenge with searching computers and phones?",
+        "options": [
+            "They are too small to search effectively",
+            "They contain too little information",
+            "They contain information about many people",
+            "They are always encrypted"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A computer at a business will have information about a large number of people. Membership lists, business records, medical records, and myriad other things can be on the same computer that law enforcement agents may search with a search warrant for specific, limited items."
+    },
+    {
+        "question": "What was the outcome of the first large-scale public application of face recognition?",
+        "options": [
+            "It successfully identified all criminals",
+            "It had a 100% accuracy rate",
+            "It did not recognize any wanted criminals but identified innocent people as felons",
+            "It was immediately banned by the Supreme Court"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In the first large-scale public application of face recognition at the 2001 Super Bowl, the system did not recognize anyone that the police wanted, but it did occasionally identify innocent people as wanted felons."
+    },
+    {
+        "question": "What is data mining in the context of marketing?",
+        "options": [
+            "A type of cryptocurrency",
+            "Searching and analyzing masses of data to find patterns",
+            "A method of storing data securely",
+            "A way to delete personal information"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Data mining is searching and analyzing masses of data to find patterns and develop new information or knowledge. Businesses use these techniques to find likely new customers and understand consumer behavior."
+    },
+    {
+        "question": "What is profiling in the context of data analysis?",
+        "options": [
+            "Creating fake social media accounts",
+            "Analyzing data to determine characteristics of people likely to engage in certain behavior",
+            "A method of data encryption",
+            "A way to protect personal information"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Profiling is analyzing data to determine characteristics of people most likely to engage in certain behavior. Businesses use these techniques to find likely new customers, while government agencies use them to detect fraud and enforce laws."
+    },
+    {
+        "question": "What is the main ethical issue with invisible information gathering?",
+        "options": [
+            "It's too expensive",
+            "It's too slow",
+            "People have no opportunity to consent or withhold consent",
+            "It only works in public places"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The important ethical issue with invisible information gathering is that if someone is not aware of the collection and use, they have no opportunity to consent or withhold consent."
+    },
+    {
+        "question": "What is the main difference between small towns and big cities regarding privacy?",
+        "options": [
+            "Small towns have more privacy",
+            "Big cities have more privacy",
+            "There is no difference in privacy",
+            "Privacy is only an issue in big cities"
+        ],
+        "correctAnswer": 1,
+        "explanation": "If you live in a small town, you have little privacy as everybody knows everything about you. If you are in a big city, you are nearly anonymous."
+    },
+    {
+        "question": "What is the main purpose of Fair Information Principles?",
+        "options": [
+            "To increase government surveillance",
+            "To protect personal data",
+            "To make data collection easier",
+            "To reduce privacy protections"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Fair Information Principles or Fair Information Practices are various sets of principles for protection of personal data. They provide guidelines for how personal information should be handled and protected."
+    },
+    {
+        "question": "What is the main challenge with 'plain view' in computer searches?",
+        "options": [
+            "Computers are too small to search",
+            "Computers contain too little information",
+            "The amount of information that might be in plain view is much larger than in physical searches",
+            "Computers are always encrypted"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The amount of information or evidence that might be in plain view in a house or office is small compared to what is on a computer. This makes it challenging to apply the 'plain view' doctrine in computer searches."
+    },
+    {
+        "question": "What was the Ohio Supreme Court's ruling on cellphone searches?",
+        "options": [
+            "Searching without a warrant is constitutional",
+            "Searching without a warrant is unconstitutional",
+            "All cellphone searches are illegal",
+            "Only encrypted phones need warrants"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Ohio Supreme Court ruled that searching an arrested person's phone without a search warrant is unconstitutional because people have an expectation of privacy for the contents of their phones."
+    },
+    {
+        "question": "What is the main purpose of face recognition technology?",
+        "options": [
+            "To improve social media",
+            "To enhance security and crime prevention",
+            "To track shopping habits",
+            "To improve camera quality"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Face recognition technology is primarily used for security and crime prevention. While it has beneficial applications, there is a clear need for limits, controls, and guidelines to distinguish appropriate from inappropriate uses."
+    },
+    {
+        "question": "What is the main benefit of targeted advertising according to companies?",
+        "options": [
+            "It increases the number of ads shown",
+            "It reduces the number of ads overall and provides more relevant ads",
+            "It makes ads more expensive",
+            "It makes ads more colorful"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Companies say targeting ads via personal consumer information reduces the number of ads overall that people will see and provides ads that people are more likely to want."
+    },
+    {
+        "question": "What is the main concern about personalization in online shopping?",
+        "options": [
+            "It makes shopping too easy",
+            "It makes prices too high",
+            "The displays, ads, prices, and discounts might be different for different people",
+            "It makes shopping too slow"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Some kinds of less obvious personalization trouble people more when they learn of them. The displays, ads, prices, and discounts you see when shopping online might be different from those others see."
+    },
+    {
+        "question": "What is the main purpose of data matching?",
+        "options": [
+            "To delete duplicate files",
+            "To combine and compare information from different databases",
+            "To encrypt personal information",
+            "To speed up internet connection"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Matching is combining and comparing information from different databases, often using an identifier such as a person's Social Security number or their computer's Internet address to match records."
+    },
+    {
+        "question": "What is the main reason for the controversy over cookies?",
+        "options": [
+            "They are too expensive",
+            "They slow down computers",
+            "They store files on users' computers without their knowledge",
+            "They only work in certain browsers"
+        ],
+        "correctAnswer": 2,
+        "explanation": "At first, cookies were controversial because the very idea that websites were storing files on the user's computer without the user's knowledge startled and disturbed people."
+    },
+    {
+        "question": "What is the main purpose of supercookies?",
+        "options": [
+            "To make cookies more secure",
+            "To recreate deleted cookies and track online activity",
+            "To speed up internet browsing",
+            "To protect personal information"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Some companies that track online activity developed more sophisticated 'supercookies' that recreate deleted cookies and are difficult to find and remove."
+    },
+    {
+        "question": "What is the main reason we cannot expect complete privacy?",
+        "options": [
+            "Because of government surveillance",
+            "Because of social media",
+            "Because many people naturally know things about us",
+            "Because of internet tracking"
+        ],
+        "correctAnswer": 2,
+        "explanation": "We cannot expect complete privacy because many friends and acquaintances know what you look like, where you work, what car you drive, and other similar information about you. They do not need your permission to observe or talk about you."
+    },
+    {
+        "question": "What is the main limitation of control over information about oneself?",
+        "options": [
+            "Technical limitations",
+            "Government restrictions",
+            "Basic human rights and freedom of speech",
+            "Internet speed"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Control of information about yourself means control of what is in other people's minds, phones, and more. It is limited by basic human rights, freedom of speech."
+    },
+    {
+        "question": "What is the main difference between privacy in small towns and big cities?",
+        "options": [
+            "Small towns have better internet",
+            "Big cities have more surveillance",
+            "Small towns have less anonymity",
+            "Big cities have more government control"
+        ],
+        "correctAnswer": 2,
+        "explanation": "If you live in a small town, you have little privacy, everybody knows everything about you. If you are in a big city, you are nearly anonymous."
+    },
+    {
+        "question": "What is the main impact of digital devices on privacy?",
+        "options": [
+            "They make privacy easier to maintain",
+            "They make information collection and analysis easier and faster",
+            "They only affect government surveillance",
+            "They have no impact on privacy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Computers, Internet, and all other digital devices, with their advantage in speed, storage, and connectivity, make the collection, searching, analysis, storage, access, and distribution of huge amounts of information much easier, cheaper, and faster than before."
+    },
+    {
+        "question": "What is the main risk of having personal information in databases?",
+        "options": [
+            "The information might be too old",
+            "The information might be too new",
+            "The information might be leaked or misused",
+            "The information might be too accurate"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Leaks happen. The existence of the data presents a risk. The government sometimes requests or demands sensitive personal data held by businesses and organizations."
+    },
+    {
+        "question": "What is the main purpose of informed consent?",
+        "options": [
+            "To make data collection faster",
+            "To ensure people know how their information will be used",
+            "To reduce government oversight",
+            "To make data collection cheaper"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Informed consent is the first principle for ethical treatment of personal information. It ensures that people know how their information will be collected and used."
+    },
+    {
+        "question": "What is the main purpose of spyware?",
+        "options": [
+            "To protect computers",
+            "To speed up internet",
+            "To surreptitiously collect information about a person's activity",
+            "To improve computer performance"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Spyware is software that is often downloaded from a website without the user's knowledge and surreptitiously collects information about a person's activity and data on their computer."
+    },
+    {
+        "question": "What is the main purpose of history sniffers?",
+        "options": [
+            "To clean browser history",
+            "To collect information about a person's online activity",
+            "To speed up browsing",
+            "To protect privacy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "History sniffers are programs that collect information about a person's online activity based on the different colors a browser uses to display sites recently visited."
+    },
+    {
+        "question": "What is the main purpose of event data recorders in cars?",
+        "options": [
+            "To improve fuel efficiency",
+            "To record driving speed and other information",
+            "To prevent accidents",
+            "To improve navigation"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Event data recorders in cars record driving speed, whether or not the driver is wearing a seatbelt, and other information."
+    },
+    {
+        "question": "What is the main purpose of the Fourth Amendment?",
+        "options": [
+            "To protect freedom of speech",
+            "To set limits on government's rights to search and seize",
+            "To regulate private business",
+            "To establish internet privacy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Fourth Amendment sets limits on the government's rights to search our homes and businesses and to seize documents and other personal effects. It requires that the government have probable cause for the search and seizure."
+    },
+    {
+        "question": "What is the main challenge with new surveillance technologies?",
+        "options": [
+            "They are too expensive",
+            "They are too slow",
+            "They can search without physical intrusion",
+            "They only work in daylight"
+        ],
+        "correctAnswer": 2,
+        "explanation": "New technologies allow the government to search our homes without entering them, to search our persons from a distance without our knowledge, and to extract all the data on a cellphone in less than two minutes at a traffic stop."
+    },
+    {
+        "question": "What is the main purpose of particle sniffers?",
+        "options": [
+            "To detect weather changes",
+            "To detect many specific drugs and explosives",
+            "To improve air quality",
+            "To measure temperature"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Particle sniffers are noninvasive but deeply revealing search tools that can detect many specific drugs and explosives."
+    },
+    {
+        "question": "What is the main purpose of thermal-imaging devices?",
+        "options": [
+            "To measure room temperature",
+            "To find heat sources like heat lamps for growing marijuana",
+            "To improve heating systems",
+            "To detect weather changes"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Thermal-imaging devices are used to find heat sources like heat lamps for growing marijuana, for example."
+    },
+    {
+        "question": "What is the main purpose of imaging systems that detect guns?",
+        "options": [
+            "To improve camera quality",
+            "To detect guns under clothing from a distance",
+            "To measure distances",
+            "To improve night vision"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Imaging systems that detect guns under clothing from a distance are noninvasive but deeply revealing search tools."
+    },
+    {
+        "question": "What is the main purpose of devices that analyze truck cargo?",
+        "options": [
+            "To improve truck performance",
+            "To analyze the molecular composition of truck cargo without opening the truck",
+            "To measure truck weight",
+            "To improve fuel efficiency"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Devices that analyze the molecular composition of truck cargo without opening the truck are noninvasive but deeply revealing search tools."
+    },
+    {
+        "question": "What is the main purpose of devices that locate cellphones?",
+        "options": [
+            "To improve phone reception",
+            "To locate a person by locating their cellphone",
+            "To measure signal strength",
+            "To improve battery life"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Devices that locate a person by locating their cellphone are noninvasive but deeply revealing search tools."
+    },
+    {
+        "question": "What is the main purpose of the Olmstead v. United States case?",
+        "options": [
+            "To protect privacy",
+            "To allow wiretaps without a court order",
+            "To ban wiretaps completely",
+            "To improve phone technology"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Olmstead v. United States in 1928, the government had used wiretaps on telephone lines without a court order. The Supreme Court allowed the wiretaps, interpreting the Fourth Amendment to apply only to physical intrusion and only to the search or seizure of material things, not conversations."
+    },
+    {
+        "question": "What is the main purpose of the Katz v. United States case?",
+        "options": [
+            "To allow unlimited surveillance",
+            "To apply the Fourth Amendment to conversations and public places",
+            "To ban all surveillance",
+            "To improve phone technology"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Katz v. United States in 1967, the Supreme Court reversed its position and ruled that the Fourth Amendment does apply to conversations and that it applies in public places in some situations."
+    },
+    {
+        "question": "What is the main purpose of the Kyllo v. United States case?",
+        "options": [
+            "To allow thermal-imaging without a warrant",
+            "To require a warrant for thermal-imaging",
+            "To ban thermal-imaging completely",
+            "To improve thermal-imaging technology"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In Kyllo v. United States (2001), the Supreme Court ruled that police could not use thermal-imaging devices to search a home from the outside without a search warrant."
+    },
+    {
+        "question": "What is the main purpose of the Fourth Amendment's requirement for specific warrants?",
+        "options": [
+            "To make searches faster",
+            "To prevent fishing expeditions",
+            "To make searches cheaper",
+            "To improve search technology"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Fourth Amendment requires that search warrants be specific about the object of the search or seizure. A broad interpretation invites abuse, as agents could get a warrant for a small crime and then go on fishing expeditions for other information."
+    },
+    {
+        "question": "What is the main purpose of the California Supreme Court's ruling on cellphone searches?",
+        "options": [
+            "To protect privacy",
+            "To allow searches without a warrant",
+            "To ban all cellphone searches",
+            "To improve phone technology"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The California Supreme Court ruled that search of the contents of a cellphone was permitted because the phone was personal property found on the arrested person."
+    },
+    {
+        "question": "What is the main purpose of face recognition at the Super Bowl?",
+        "options": [
+            "To improve security",
+            "To scan faces of all fans and employees for criminal matches",
+            "To improve camera quality",
+            "To count attendance"
+        ],
+        "correctAnswer": 1,
+        "explanation": "In the first large-scale public application of face recognition, police in Tampa, Florida, scanned the faces of all 100,000 fans and employees who entered the 2001 Super Bowl. The system searched computer files of criminals for matches."
+    },
+    {
+        "question": "What is the main purpose of Tesco's data collection?",
+        "options": [
+            "To improve store layout",
+            "To collect information on buying habits in exchange for discounts",
+            "To improve inventory management",
+            "To reduce prices"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Customers of the British retailing firm Tesco permit the company to collect information on their buying habits in exchange for discounts."
+    },
+    {
+        "question": "What is the main purpose of Target's data mining?",
+        "options": [
+            "To improve store layout",
+            "To analyze purchases of women who signed up for baby registries",
+            "To improve inventory management",
+            "To reduce prices"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Target's data miners analyzed purchases of women who signed up for baby registries. They discovered that pregnant women tend to increase their purchases of a group of 25 products."
+    },
+    {
+        "question": "What is the main purpose of Tesco's price analysis?",
+        "options": [
+            "To improve store layout",
+            "To identify price-conscious customers and set competitive prices",
+            "To improve inventory management",
+            "To reduce all prices"
+        ],
+        "correctAnswer": 1,
+        "explanation": "To compete with WalMart, Tesco aimed to identify those customers who were most price conscious and hence most likely to be attracted to Wal-Mart's low prices. By analyzing purchase data, they determined which customers regularly buy the cheapest version of products."
+    }
+]

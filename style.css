@@ -483,10 +483,32 @@ h2{
     border-radius: 50%;
 }
 
+.counter {
+    font-size: 14px;
+    color: var(--subheader-color);
+    margin-top: 5px;
+    font-weight: 500;
+}
+
 .current-topic {
     font-size: 16px;
     color: var(--subheader-color);
     margin-top: 5px;
     font-weight: 500;
     opacity: 0.8;
+}
+
+#study-container .header {
+    position: sticky;
+    top: -30px;
+    background-color: var(--container-bg);
+    padding: 10px 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--option-border);
+    margin-bottom: 20px;
+}
+
+#study-container {
+    max-height: 90vh;
+    overflow-y: auto;
 }
